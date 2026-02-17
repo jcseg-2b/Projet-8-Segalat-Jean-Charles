@@ -108,7 +108,7 @@
       $(`#${lightboxId}`)
         .find(".lightboxImage")
         .attr("src", element.attr("src"));
-      $(`#${lightboxId}`).modal("toggle");
+      bootstrap.Modal.getOrCreateInstance($(`#${lightboxId}`)[0]).toggle();
     },
     prevImage() {
       let activeImage = null;
