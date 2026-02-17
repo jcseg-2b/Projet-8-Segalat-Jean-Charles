@@ -86,7 +86,6 @@ body {
 }
 #about-me p {
   width: 80%;
-  font-size: 14px;
 }
 
 .title {
@@ -99,7 +98,7 @@ body {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #beb45a;
+  background-color: brown;
   border-radius: 0;
 }
 .nav-pills .nav-link {
@@ -238,7 +237,7 @@ input[type="submit"] {
   padding: 0.5em 1em;
 }
 
-@media all and (max-width: 1180px) {
+@media all and (max-width: 1440px) {
   .picture {
     flex: 2;
   }
@@ -256,7 +255,7 @@ input[type="submit"] {
   }
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1024px) {
   #about {
     flex-direction: column;
   }
@@ -314,7 +313,7 @@ input[type="submit"] {
   }
 }
 
-@media all and (max-width: 650px) {
+@media all and (max-width: 768px) {
   .top-header {
     flex-direction: column;
     padding-inline: 0;
