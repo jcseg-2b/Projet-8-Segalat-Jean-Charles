@@ -50,6 +50,30 @@ body {
   position: relative;
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.55);
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 1;
+}
+
+.carousel-control-prev {
+  left: 16px;
+}
+.carousel-control-next {
+  right: 16px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 28px;
+  height: 28px;
+}
+
 .picture.left::before {
   content: " ";
   background-color: #e5975f;
